@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gallery</title>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+        body {
+            background-image: url('images/hangar.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .footer {
+            background-image: url('images/nebula.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        header {
+            margin: 0;
+            padding: 0;
+            height: 20vh;
+            background-image: url('images/window.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        /* i figured out how to use images as backrounds and how to edit them over W3schools, so much of the header and footer come from there */
+    </style>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+            </header>
+            <h1>A hobby I really enjoy, Warhammer!</h1>
+            <nav class="menu">
+                        <img src="images/scfifiicon.png" alt="Scifi map" style="width:100px;height:100x;">
+                        <!-- This image is from PNGtree https://pngtree.com/so/sci-fi-icon -->
+                        <h3>The Navigation Center</h3>
+                        <a href="index.html">Main page</a>
+                        <br>
+                        <a href="about.html">About Me</a>
+                        <br>
+                        <a href="cv.html">Curriculum Vitae</a>
+                        <br>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+            <p>
+                Every model here is painstakingly assembled and hand-painted by me!<br>
+                That is the point of the hobby though. A lot of time investment for a <br>great outcome, plus you can play tabletop games with them.
+            </p>
+            <section>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/1000013938.jpg" alt="Photo 1">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000013966.jpg" alt="Photo 2">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000014054.jpg" alt="Photo 3">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000014056.jpg" alt="Photo 4">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000014057.jpg" alt="Photo 5">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000018113.jpg" alt="Photo 6">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000018747.jpg" alt="Photo 7">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000018750.jpg" alt="Photo 8">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000019907.jpg" alt="Photo 9">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000013486.jpg" alt="Photo 10">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1000013513.jpg" alt="Photo 11">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/1000012853.jpg" alt="Photo 11">
+                    </div>
+                </div>
+            </section>
+                <br><br><br><br><br><br><br><br><br><br>
+            <footer id="footer" class="footer" >
+                <div>
+                    <ul>
+                        <li>My Contact and Other Information:</li>
+                        <li>e-mail: <a href="mailto: marko06vorkapic@gmail.com">
+                                marko06vorkapic@gmail.com
+                            </a></li>
+                        <li> Phone number: +123 456 789</li>
+                        <li> © Marko Vorkapic .Co 2025</li>
+                    </ul>
+
+                </div>
+            </footer>
+        </div>
+</body>
+
 </html>
