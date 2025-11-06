@@ -108,3 +108,92 @@ ul{
 }
 /* this hover is from a friend */
 
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid white;
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-btn {
+    background-color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: inherit;
+    border: 2px solid white;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.success-message:target {
+    display: block;
+}
+
+.success-message h2 {
+    margin-bottom: 1rem;
+}
+
+.success-message p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.back-button {
+    display: inline-block;
+    background: inherit;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid white;
+}
+
+.back-button:hover {
+    background-color: white;
+}
+
+.form-container {
+    display: block;
+}
+
+.success-message:target ~ .form-container {
+    display: none;
+}
